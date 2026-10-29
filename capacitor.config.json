@@ -1,0 +1,22 @@
+{
+  "appId": "com.fieldtrace.app",
+  "appName": "FieldTrace",
+  "webDir": "www",
+  "server": {
+    "url": "https://preview--beacon-fieldtrace-base.apper.so",
+    "cleartext": false,
+    "allowNavigation": [
+      "*.apper.so",
+      "*.apper.io"
+    ]
+  },
+  "android": {
+    "allowMixedContent": false,
+    "useLegacyBridge": true
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "iconColor": "#E8751A"
+    }
+  }
+}
